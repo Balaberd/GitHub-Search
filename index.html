@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="search">
+      <form action="" class="search__form">
+        <input
+          type="text"
+          name="input"
+          placeholder="Введите данные"
+          class="search__input"
+        />
+        <button type="submit" class="search__button">Найти</button>
+      </form>
+
+      <div class="search__result">
+        <ol class="search__results-list"></ol>
+      </div>
+
+      <h2 class="search__nothing-found search__nothing-found_unvisible">
+        Ничего не найдено
+      </h2>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
